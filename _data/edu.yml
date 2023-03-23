@@ -38,16 +38,15 @@ featured:
   para: Teaching Quantum Computing using Qiskit in a block world.
   url: https://content.minetest.net/packages/JavaFXpert/qiskitblocks/
 
-- title: Craft the Web
-  author: CERN
-  tag: Unreleased
+- title: Maubeuge
+  author: Thomate & Lemente
+  tag: Citizen Participation
   img: ctw.png
-  para: Learn what makes the Web function, and about the ideas and major inventions that paved its creation.
-  url: https://forum.minetest.net/viewtopic.php?t=22871
+  para: Workshop for the city of Maubeuge in France. Groups of young citizens between 10 and 16 years old shared ideas to improve the public space in their neighborhood, and then built them in an in-game map of their city, allowing urban planners to see what young people wanted for their local area and discuss current issues with them.
+  url: https://agglo-maubeugevaldesambre.fr/wp-content/uploads/2023/02/Journal-du-Renouvellement-Urbain-7-Decembre-2022-Final-numerique.pdf
 
 
 resources:
-
 - title: BLOCKALOT
   author: Landesmedienzentrum Baden-Württemberg
   lang: de
