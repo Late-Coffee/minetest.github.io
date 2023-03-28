@@ -25,6 +25,28 @@ why:
 
 
 featured:
+- title: Minestory
+  author: académie de Dijon - Julien Crémoux
+  lang: fr
+  img: minestory.png
+  para: Since 2019, more than 600 primary school students from 30 classes in 3 different countries have replicated heritage sites (like Notre-Dame de Paris, the medieval Louvre castle or the Besançon citadel), placed them on an interactive timeline and gave tours and presentations in the virtual world.
+  url: http://minetest.wp.ac-dijon.fr/minestory-frise-immersive-de-sites-du-patrimoine-architectural/
+
+- title: Minetest Classroom
+  author: Paul Pickell
+  lang: ca
+  img: minetest_classroom.png
+  para: A project funded by the University of British Columbia around the use of Minetest as a learning tool and for the production of digital twins of natural and human built environments. It has been use to organize virtual field trips and learn the use of measurement tools in a 3d environment.
+  url: https://eml.ubc.ca/projects/gamifying-forestry/
+
+- title: Maubeuge en Cubes
+  author: Thomate & Lemente
+  tag: Citizen Participation
+  lang: fr
+  img: maubeuge.png
+  para: A Workshop for the city of Maubeuge in France where groups of young citizens between 10 and 16 years old shared ideas to improve their neighborhood. They then built them in an in-game map of their city, allowing urban planners to see what young people wanted for their local area and discuss current issues with them.
+  url: https://agglo-maubeugevaldesambre.fr/wp-content/uploads/2023/02/Journal-du-Renouvellement-Urbain-7-Decembre-2022-Final-numerique.pdf
+
 - title: Framinetest
   author: Framasoft
   lang: fr
@@ -38,13 +60,12 @@ featured:
   para: Teaching Quantum Computing using Qiskit in a block world.
   url: https://content.minetest.net/packages/JavaFXpert/qiskitblocks/
 
-- title: Maubeuge
-  author: Thomate & Lemente
-  tag: Citizen Participation
+- title: Craft the Web
+  author: CERN
+  tag: Unreleased
   img: ctw.png
-  para: Workshop for the city of Maubeuge in France. Groups of young citizens between 10 and 16 years old shared ideas to improve the public space in their neighborhood, and then built them in an in-game map of their city, allowing urban planners to see what young people wanted for their local area and discuss current issues with them.
-  url: https://agglo-maubeugevaldesambre.fr/wp-content/uploads/2023/02/Journal-du-Renouvellement-Urbain-7-Decembre-2022-Final-numerique.pdf
-
+  para: Learn what makes the Web function, and about the ideas and major inventions that paved its creation.
+  url: https://forum.minetest.net/viewtopic.php?t=22871
 
 resources:
 - title: BLOCKALOT
