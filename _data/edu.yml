@@ -27,6 +27,7 @@ why:
 featured:
 - title: Minestory
   author: académie de Dijon - Julien Crémoux
+  tag: Heritage Sites
   lang: fr
   img: minestory.png
   para: Since 2019, more than 600 primary school students from 30 classes in 3 different countries have replicated heritage sites (like Notre-Dame de Paris, the medieval Louvre castle or the Besançon citadel), placed them on an interactive timeline and gave tours and presentations in the virtual world.
@@ -34,6 +35,7 @@ featured:
 
 - title: Minetest Classroom
   author: Paul Pickell
+  tag: Digital Twin
   lang: ca
   img: minetest_classroom.png
   para: A project funded by the University of British Columbia around the use of Minetest as a learning tool and for the production of digital twins of natural and human built environments. It has been use to organize virtual field trips and learn the use of measurement tools in a 3d environment.
