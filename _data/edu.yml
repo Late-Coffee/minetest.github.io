@@ -53,12 +53,12 @@ featured:
 resources:
 - title: Beginners Guides
   author: Various guides to help you get started
-  para: |
-  🇬🇧 🇫🇷 Mining for Education
-  🇬🇧 Build Block Worlds with Minetest
-  🇬🇧 Learning with Minetest
-  🇩🇪 Erste Schritte
-  🇫🇷 Premier pas dans Minetest
+  para: >
+    🇬🇧 🇫🇷 Mining for Education
+    🇬🇧 Build Block Worlds with Minetest
+    🇬🇧 Learning with Minetest
+    🇩🇪 Erste Schritte
+    🇫🇷 Premier pas dans Minetest
 
 - title: Minetest Wiki (Edu page)
   author: The official Minetest Wiki, by the community
