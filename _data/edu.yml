@@ -53,11 +53,12 @@ featured:
 resources:
 - title: Beginners Guides
   author: Various guides to help you get started
-  para: 🇬🇧 🇫🇷 Mining for Education
-🇬🇧 Build Block Worlds with Minetest
-🇬🇧 Learning with Minetest
-🇩🇪 Erste Schritte
-🇫🇷 Premier pas dans Minetest
+  para: |
+  🇬🇧 🇫🇷 Mining for Education
+  🇬🇧 Build Block Worlds with Minetest
+  🇬🇧 Learning with Minetest
+  🇩🇪 Erste Schritte
+  🇫🇷 Premier pas dans Minetest
 
 - title: Minetest Wiki (Edu page)
   author: The official Minetest Wiki, by the community
@@ -86,8 +87,7 @@ resources:
 
 - title: Minetest Modding Book
   author: To learn the basics of Minetest modding
-  para: A guide to learn the basics of mod development for minetest.
-Requires basics in LUA and programming.
+  para: A guide to learn the basics of mod development for minetest. Requires basics in LUA and programming.
   url: https://rubenwardy.com/minetest_modding_book/en/index.html
 
 - title: GitHub, Gitlab, ...
