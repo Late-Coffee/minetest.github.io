@@ -77,7 +77,6 @@ resources:
 🇬🇧 Learning with Minetest
 🇩🇪 Erste Schritte
 🇫🇷 Premier pas dans Minetest
-  url:
 
 - title: Minetest Wiki (Edu page)
   author: The official Minetest Wiki, by the community
@@ -113,5 +112,4 @@ Requires basics in LUA and programming.
 - title: GitHub, Gitlab, ...
   author: To share your code, fork, contribute, ...
   para: Development plateform used by Minetest devs and modders to share their own projects, and contribute or build upon other's projects.
-  url: \?
 
