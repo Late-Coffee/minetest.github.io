@@ -49,25 +49,6 @@ featured:
   para: A Workshop for the city of Maubeuge in France where groups of young citizens between 10 and 16 years old shared ideas to improve their neighborhood. They then built them in an in-game map of their city, allowing urban planners to see what young people wanted for their local area and discuss current issues with them.
   url: https://agglo-maubeugevaldesambre.fr/wp-content/uploads/2023/02/Journal-du-Renouvellement-Urbain-7-Decembre-2022-Final-numerique.pdf
 
-- title: Framinetest
-  author: Framasoft
-  lang: fr
-  img: framinetest.png
-  para: An educational server, with geology, biology, and historical reconstruction to imagine your world!
-  url: https://framinetest.org
-
-- title: QiskitBlocks
-  author: James Weaver
-  img: qiskitblocks.png
-  para: Teaching Quantum Computing using Qiskit in a block world.
-  url: https://content.minetest.net/packages/JavaFXpert/qiskitblocks/
-
-- title: Craft the Web
-  author: CERN
-  tag: Unreleased
-  img: ctw.png
-  para: Learn what makes the Web function, and about the ideas and major inventions that paved its creation.
-  url: https://forum.minetest.net/viewtopic.php?t=22871
 
 resources:
 - title: Beginners Guides
