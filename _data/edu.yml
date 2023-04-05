@@ -27,7 +27,7 @@ why:
 featured:
 - title: Minestory
   author: académie de Dijon - Julien Crémoux
-  tag: Patrimoine
+  tag: Scolaire - Patrimoine
   lang: 🇫🇷
   img: minestory.png
   para: Depuis 2019, plus de 600 élèves de 1er niveau issues de 30 classes dans 3 pays différents ont reproduit des sites du patrimoine tel que Notre-Dame de Paris, le château médiévale du Louvre ou la citadelle de Besançon. Ils les ont ensuite placé sur une frise interactive et fait leur médiation dans l'univers virtuel.
@@ -35,7 +35,7 @@ featured:
 
 - title: Minetest Classroom
   author: Paul Pickell
-  tag: Jumeau Numérique
+  tag: Université - Jumeau Numérique
   lang: 🇨🇦
   img: minetest_classroom.png
   para: Un projet financé par l'Université de la Colombie-Britannique autour des usages de Minetest comme outil pédagogique et pour la porduction de jumeaux numériques d'espaces naturels ou artificiels. Il a été utilisé pour organiser des sorties éducatives virtuels dans le contexte de l'épidédime de Covid 19.
@@ -51,7 +51,7 @@ featured:
 
 - title: Permis de déconstruire
   author: Praticable
-  tag: Résidence artistique
+  tag: Scolaire - Résidence artistique
   lang: 🇫🇷
   img:
   para: Entre novembre 2021 et juin 2022, des collégiens·nes d'Aulnay-sous-Bois ont réinventés leur quartier sur Minetest. Ce projet, coordonné par l'IRI et les enseignants, a permis aux élèves d'explorer des pratiques numériques de construction coopérative et contributive. Les projets réalisés mettent l'accent sur le bien-être et la convivialité du quartier.
@@ -59,7 +59,7 @@ featured:
 
 - title: UNEJ
   author: Institut de Recherche et d'Innovation
-  tag: Urbanisme
+  tag: Scolaire - Urbanisme
   lang: 🇫🇷
   img:
   para: Le projet UNEJ (Urbanités Numériques En Jeux) propose à des enseignents et des élèves un projet évolutif sur 4 ans pour les sensibiliser à l'urbanisme en menant à bien des propositions concrètes d'aménagement de leurs quartiers, avec l'aide de professionnels du secteur, en lien avec les transformations urbaines menées pour les JO 2024.
