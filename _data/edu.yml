@@ -78,11 +78,12 @@ resources:
 - title: Guides débutants
   author: Des guides variés pour bien débuter
   para: >
-    🇬🇧 🇫🇷 Mining for Education
+    <a href=https://www.ocsmag.com/mining-for-education>🇬🇧</a> <a href=https://framablog.org/2016/05/28/minetest-piochez-en-lberte/>🇫🇷</a> <a href=https://www.ocsmag.com/mining-for-education>Mining for Education</a>
     🇬🇧 Build Block Worlds with Minetest
     🇬🇧 Learning with Minetest
     🇩🇪 Erste Schritte
     🇫🇷 Premier pas dans Minetest
+
 
 - title: Minetest Wiki (Edu page)
   author: Le wiki Minetest officiel, par la communauté
