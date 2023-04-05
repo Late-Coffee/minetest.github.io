@@ -75,8 +75,8 @@ featured:
 
 
 resources:
-- title: Beginners Guides
-  author: Various guides to help you get started
+- title: Guides débutants
+  author: Des guides variés pour bien débuter
   para: >
     🇬🇧 🇫🇷 Mining for Education
     🇬🇧 Build Block Worlds with Minetest
@@ -85,35 +85,35 @@ resources:
     🇫🇷 Premier pas dans Minetest
 
 - title: Minetest Wiki (Edu page)
-  author: The official Minetest Wiki, by the community
-  para: A trove of information, in multiple languages, with a space dedicated to education. Looking for more contributions!
+  author: Le wiki Minetest officiel, par la communauté
+  para: Une mine d'informations, avec un espace dédié à l'éducation. Recherche des contributeur·ices !
   url: https://wiki.minetest.net/MinetestEDU
 
 - title: Content Database
-  author: To find Minetest mods
-  para: A database where modders can submit their mods to make them easily accessible. Includes features such as a tag system, reviews, and more.
+  author: Pour trouver des mods Minetest
+  para: Une base de données où les devs peuvent soumettre leurs mods pour les rendre facilement accessibles. Comprend des fonctionnalités telles qu'un système de tag, des critiques, etc.
   url: https://content.minetest.net/
 
 - title: Blockalot Server Hosting
-  author: To host an Edu server
-  para: A server management dashboard offered free of charge to facilitate hosting Minetest Edu servers. Comes with support in English/French/German, a wiki and workshops.
+  author: Pour héberger un serveur Édu
+  para: Un tableau de bord de gestion des serveurs proposé gratuitement pour faciliter l'hébergement de serveurs éducatifs Minetest. Fournit un support en anglais / français / allemand, un wiki et des ateliers.
   url: https://www.blockalot.de/
 
 - title: Blockexchange
-  author: To share Minetest builds
-  para: A website and mod that allows you to import or share Minetest constructions on an online library.
+  author: Pour partager des constructions Minetest
+  para: Service qui permet d'importer ou de partager des constructions Minetest sur une bibliothèque en ligne.
   url: https://blockexchange.minetest.ch/
 
-- title: Create/host a server (Wiki)
-  author: To host a server by yourself
-  para: The basics to host your multiplayer world locally or online.
+- title: Créer/héberger un serveur (Wiki)
+  author: Pour héberger un serveur soi-même
+  para: Les bases pour héberger votre partie multijoueur en local ou en ligne.
   url: https://wiki.minetest.net/Setting_up_a_server
 
 - title: Minetest Modding Book
-  author: To learn the basics of Minetest modding
-  para: A guide to learn the basics of mod development for minetest. Requires basics in LUA and programming.
+  author: Pour apprendre les bases du modding
+  para: Guide pour apprendre les bases du développement de mods pour Minetest. Nécessite des bases en Lua et en programmation.
   url: https://rubenwardy.com/minetest_modding_book/en/index.html
 
-- title: GitHub, Gitlab, ...
-  author: To share your code, fork, contribute, ...
-  para: Development plateform used by Minetest devs and modders to share their own projects, and contribute or build upon other's projects.
+- title: GitHub, Gitlab, Codeberg, forge.aeif.fr 👀 ...
+  author: Pour partager du code, forker, contribuer ...
+  para: Plateformes de partage utilisées par les développeurs·euses de Minetest pour partager leurs propres projets, et contribuer aux projets d'autres utilisateurs·ices.
