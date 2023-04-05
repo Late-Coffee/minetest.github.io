@@ -45,7 +45,7 @@ featured:
   author: Landesmedienzentrum Baden-Württemberg
   tag: Plateforme/Outils
   lang: 🇩🇪
-  img:
+  img: blockalot.png
   para: Avec le projet BLOCKALOT, le serveur créatif Minetest pour un apprentissage orienté vers l'avenir, le Landesmedienzentrum Baden-Württemberg vise à aider les enseignants à mettre en œuvre l'apprentissage par le jeu dans le cadre d'une approche pratique.
   url: https://www.blockalot.de/
 
@@ -53,7 +53,7 @@ featured:
   author: Praticable
   tag: Scolaire - Résidence artistique
   lang: 🇫🇷
-  img:
+  img: permisdedeconstruire.jpg
   para: Entre novembre 2021 et juin 2022, des collégiens·nes d'Aulnay-sous-Bois ont réinventés leur quartier sur Minetest. Ce projet, coordonné par l'IRI et les enseignants, a permis aux élèves d'explorer des pratiques numériques de construction coopérative et contributive. Les projets réalisés mettent l'accent sur le bien-être et la convivialité du quartier.
   url: https://praticable.fr/productions/permis-de-deconstruire
 
@@ -61,7 +61,7 @@ featured:
   author: Institut de Recherche et d'Innovation
   tag: Scolaire - Urbanisme
   lang: 🇫🇷
-  img:
+  img: unej.png
   para: Le projet UNEJ (Urbanités Numériques En Jeux) propose à des enseignents et des élèves un projet évolutif sur 4 ans pour les sensibiliser à l'urbanisme en menant à bien des propositions concrètes d'aménagement de leurs quartiers, avec l'aide de professionnels du secteur, en lien avec les transformations urbaines menées pour les JO 2024.
   url: https://tac93.fr/capacitation/unej
 
@@ -78,12 +78,11 @@ resources:
 - title: Guides débutants
   author: Des guides variés pour bien débuter
   para: >
-    <a href=https://www.ocsmag.com/mining-for-education>🇬🇧</a> <a href=https://framablog.org/2016/05/28/minetest-piochez-en-lberte/>🇫🇷</a> <a href=https://www.ocsmag.com/mining-for-education>Mining for Education</a>
+    🇬🇧 🇫🇷 Mining for Education
     🇬🇧 Build Block Worlds with Minetest
     🇬🇧 Learning with Minetest
     🇩🇪 Erste Schritte
     🇫🇷 Premier pas dans Minetest
-
 
 - title: Minetest Wiki (Edu page)
   author: Le wiki Minetest officiel, par la communauté
