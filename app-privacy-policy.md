@@ -3,7 +3,7 @@ title: Minetest Privacy Policy
 description: Privacy policy for the Minetest application.
 small: |
   Last updated: 2023-05-14
-  (<a href="https://github.com/minetest/commits/master/app-privacy-policy.md">View updates</a>)
+  (<a href="https://github.com/minetest/minetest.github.io/commits/master/app-privacy-policy.md">View updates</a>)
 layout: page_subtitle
 ---
 
