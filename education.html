@@ -4,6 +4,7 @@ description: Reasons and resources for using Minetest in education
 layout: default
 
 main-title: edu.main-title
+why-minetest: edu.why-minetest
 ---
 
 <h1 class="title main-title">{% t page.main-title %}</h1>
@@ -14,7 +15,7 @@ main-title: edu.main-title
 
 <section class="section">
 	<div class="container">
-		<h2 id="why" class="title">Why Minetest?</h2>
+		<h2 id="why" class="title">{% t page.why-minetest %}</h2>
 		<div class="columns is-multiline">
 			{% for point in site.data.edu.why %}
 				<div class="column is-one-third">
