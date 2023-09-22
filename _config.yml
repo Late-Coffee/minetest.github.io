@@ -1,3 +1,5 @@
+baseurl: /minetest.github.io
+
 permalink: pretty
 plugins:
   - jekyll-redirect-from
