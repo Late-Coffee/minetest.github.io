@@ -1,9 +1,13 @@
 ---
 title: Minetest for Education
+description: Reasons and resources for using Minetest in education
 layout: default
+
+main-title: edu.main-title
+why-minetest: edu.why-minetest
 ---
 
-<h1 class="title main-title">Minetest for Education</h1>
+<h1 class="title main-title">{% t page.main-title %}</h1>
 
 <section class="section section-edu">
 	<div class="container"></div>
@@ -11,7 +15,7 @@ layout: default
 
 <section class="section">
 	<div class="container">
-		<h2 id="why" class="title">Why Minetest?</h2>
+		<h2 id="why" class="title">{% t page.why-minetest %}</h2>
 		<div class="columns is-multiline">
 			{% for point in site.data.edu.why %}
 				<div class="column is-one-third">
@@ -39,11 +43,11 @@ layout: default
 
 		<div class="columns is-multiline">
 			{% for point in site.data.edu.featured %}
-				<a class="column is-one-third hover-enlarge" href="{{ point.url }}" rel="nofollow">
+				<a class="column is-one-third hover-enlarge" href="{{ point.url }}">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-16by9">
-								<img src="/minetest.github.io/media/edu/{{ point.img }}" style="object-fit: cover;" alt="screenshot">c
+								<img src="https://late-coffee.github.io/minetest.github.io/media/edu/{{ point.img }}" style="object-fit: cover;" alt="screenshot">
 							</figure>
 						</div>
 						<div class="card-content">
@@ -52,7 +56,7 @@ layout: default
 									<span class="tag is-rounded is-warning">{{ point.tag }}</span>
 								{% endif %}
 								{% for lang in point.lang %}
-									<img class="is-pulled-right" src="/minetest.github.io/assets/icons/lang-{{ lang }}.png" alt="{{ lang }}">
+									<img class="is-pulled-right" src="https://late-coffee.github.io/minetest.github.io/assets/icons/lang-{{ lang }}.png" alt="{{ lang }}">
 								{% endfor %}
 							</h2>
 							<h6 class="subtitle is-6">{{ point.author }}</h6>
@@ -73,7 +77,7 @@ layout: default
 
 		<div class="columns is-multiline">
 			{% for point in site.data.edu.resources %}
-				<a class="column is-one-third hover-enlarge" href="{{ point.url }}" rel="nofollow">
+				<a class="column is-one-third hover-enlarge" href="{{ point.url }}">
 					<div class="card {{ point.classes }}">
 						<div class="card-content">
 							<h2 class="title is-4">{{ point.title }}</h2>
