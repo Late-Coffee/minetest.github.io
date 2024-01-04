@@ -21,14 +21,92 @@
 
     <div id="navbar" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="{{ '/#features' | relative_url }}">Features</a>
+        {% for nav-item in site.translations[site.lang].navbar-menu %}
+        {% if nav-item["ext-url"] == true %}
+        <a class="navbar-item" href="{{ nav-item['url'] }}">{{ nav-item["title"] }}</a>
+        {% else %}
+        <a class="navbar-item" href="{{ nav-item['url'] | relative_url }}">{{ nav-item["title"] }}</a>
+        {% endif %}
+        {% endfor %}
+        <!-- <a class="navbar-item" href="{{ '/#features' | relative_url }}">Features</a>
         <a class="navbar-item" href="{{ '/#gallery' | relative_url }}">Gallery</a>
         <a class="navbar-item" href="{{ '/downloads/' | relative_url }}">Download</a>
         <a class="navbar-item" href="https://content.minetest.net">ContentDB</a>
         <a class="navbar-item" href="https://blog.minetest.net/">Blog</a>
         <a class="navbar-item" href="{{ '/get-involved/' | relative_url }}">Get Involved</a>
-        <a class="navbar-item" href="{{ '/education/' | relative_url }}">Education</a>
+        <a class="navbar-item" href="{{ '/education/' | relative_url }}">Education</a> -->
       </div>
+      <div class="navbar-end">
+
+        <div class="navbar-item has-dropdown is-hoverable lang-dropdown">
+
+          {% if site.lang == "en" %}
+          <a class="navbar-link is-arrowless">
+            <img src="https://cdn0.iconfinder.com/data/icons/all-national-flags-of-the-world-very-high-quality-/283/usa-512.png" alt="">
+          </a>
+          {% elsif site.lang == "fr" %}
+          <a class="navbar-link is-arrowless">
+            <img src="https://cdn0.iconfinder.com/data/icons/all-national-flags-of-the-world-very-high-quality-/283/france-512.png" alt="">
+          </a>
+          {% elsif site.lang == "de" %}
+          <a class="navbar-link is-arrowless">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyVMJWQEATFXJPjzVL5K8pX9pQuyhcJHdkHtLCS45HF4PXb_Rt" alt="">
+          </a>
+          {% endif %}
+          
+          <div class="navbar-dropdown is-boxed is-right">
+
+            {% if site.lang == "en" %}
+            {% capture link1 %}{{ site.baseurl_root }}/fr{{ page.url }}{% endcapture %}
+            <a class="navbar-item" href="{{ link1 }}" >
+              <img src="https://cdn0.iconfinder.com/data/icons/all-national-flags-of-the-world-very-high-quality-/283/france-512.png" alt="french-flag">
+              <span>&nbsp;Français</span>            
+            </a>
+            {% capture link2 %}{{ site.baseurl_root }}/de{{ page.url }}{% endcapture %}
+            <a class="navbar-item" href="{{ link2 }}" >
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyVMJWQEATFXJPjzVL5K8pX9pQuyhcJHdkHtLCS45HF4PXb_Rt" alt="german-flag">
+              <span>&nbsp;Deutsch</span>         
+            </a>                         
+
+            {% elsif site.lang == "fr" %}
+            {% capture link1 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+            <a class="navbar-item" href="{{ link1 }}" >
+              <img src="https://cdn0.iconfinder.com/data/icons/all-national-flags-of-the-world-very-high-quality-/283/usa-512.png" alt="english-flag">
+              <span>&nbsp;English</span>
+            </a>
+            {% capture link2 %}{{ site.baseurl_root }}/de{{ page.url }}{% endcapture %}
+            <a class="navbar-item" href="{{ link2 }}" >
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyVMJWQEATFXJPjzVL5K8pX9pQuyhcJHdkHtLCS45HF4PXb_Rt" alt="german-flag">
+              <span>&nbsp;Deutsch</span>         
+            </a>     
+
+            {% elsif site.lang == "de" %}
+            {% capture link1 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+            <a class="navbar-item" href="{{ link1 }}" >
+              <img src="https://cdn0.iconfinder.com/data/icons/all-national-flags-of-the-world-very-high-quality-/283/usa-512.png" alt="english-flag">
+              <span>&nbsp;English</span>
+            </a>
+            {% capture link2 %}{{ site.baseurl_root }}/fr{{ page.url }}{% endcapture %}
+            <a class="navbar-item" href="{{ link2 }}" >
+              <img src="https://cdn0.iconfinder.com/data/icons/all-national-flags-of-the-world-very-high-quality-/283/france-512.png" alt="french-flag">
+              <span>&nbsp;Français</span>            
+            </a>          
+            {% endif %}
+
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              <small>Suggest Others</small>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero is-bold is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+      </div>
+    </div>
     </div>
   </div>
 </nav>

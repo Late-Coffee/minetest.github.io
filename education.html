@@ -17,23 +17,31 @@ why-minetest: edu.why-minetest
 	<div class="container">
 		<h2 id="why" class="title">{% t page.why-minetest %}</h2>
 		<div class="columns is-multiline">
-			{% for point in site.data.edu.why %}
+			<!-- {% for point in site.data.edu.why %}
 				<div class="column is-one-third">
 					<h3 class="title is-4">{{ point.title }}</h3>
 					<p>
 						{{ point.para }}
 					</p>
 				</div>
-			{% endfor %}
+			{% endfor %} -->
+			{% for point in site.translations[site.lang].edu.why %}
+			<div class="column is-one-third">
+				<h3 class="title is-4">{{ point["title"] }}</h3>
+				<p>
+					{{ point["para"] }}
+				</p>
+			</div>
+		{% endfor %}
 		</div>
 
-		<p class="has-text-centered footnote">
+		<!-- <p class="has-text-centered footnote">
 			<small>
 				The above is based on the
 				<a href="https://web.archive.org/web/20221218200032/https://twitter.com/MinetestProject/status/1147812428647936001">responses</a>
 				of educators using Minetest.
 			</small>
-		</p>
+		</p> -->
 	</div>
 </section>
 
@@ -42,7 +50,7 @@ why-minetest: edu.why-minetest
 		<h2 class="title">Projects</h2>
 
 		<div class="columns is-multiline">
-			{% for point in site.data.edu.featured %}
+			<!-- {% for point in site.data.edu.featured %}
 				<a class="column is-one-third hover-enlarge" href="{{ point.url }}">
 					<div class="card">
 						<div class="card-image">
@@ -66,7 +74,32 @@ why-minetest: edu.why-minetest
 						</div>
 					</div>
 				</a>
-			{% endfor %}
+			{% endfor %} -->
+			{% for point in site.translations[site.lang].edu.featured %}
+			<a class="column is-one-third hover-enlarge" href="{{ point['url'] }}">
+				<div class="card">
+					<div class="card-image">
+						<figure class="image is-16by9">
+							<img src="https://late-coffee.github.io/minetest.github.io/media/edu/{{ point.img }}" style="object-fit: cover;" alt="screenshot">
+						</figure>
+					</div>
+					<div class="card-content">
+						<h2 class="title is-4">{{ point["title"] }}
+							{% if point.tag %}
+								<span class="tag is-rounded is-warning">{{ point["tag"] }}</span>
+							{% endif %}
+							{% for lang in point["lang"] %}
+								<img class="is-pulled-right" src="https://late-coffee.github.io/minetest.github.io/assets/icons/lang-{{ lang }}.png" alt="{{ lang }}">
+							{% endfor %}
+						</h2>
+						<h6 class="subtitle is-6">{{ point["author"] }}</h6>
+						<p>
+							{{ point["para"] }}
+						</p>
+					</div>
+				</div>
+			</a>
+		{% endfor %}
 		</div>
 	</div>
 </section>

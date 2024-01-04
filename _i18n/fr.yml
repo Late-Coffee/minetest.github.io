@@ -1,3 +1,132 @@
+navbar-menu:
+  - title: Caractéristiques
+    url: /#features
+
+  - title: Galerie
+    url: /#gallery
+
+  - title: Télécharger
+    url: /downloads/
+
+  - title: ContentDB
+    url: https://content.minetest.net
+    ext-url: true
+
+  - title: Blog
+    url: https://blog.minetest.net/
+    ext-url: true
+
+  - title: "S'impliquer"
+    url: /get-involved/
+
+  - title: Éducation
+    url: /education/
+
 edu:
-  main-title: "Minetest à l'école"
+  main-title: "Minetest pour l'éducation"
   why-minetest: "Pourquoi Minetest ?"
+
+  why:
+  - title: Gratuit & Open Source
+    para: Le moteur de jeu Minetest est <a href="/get-involved/">développé</a> par une communauté indépendante de <a href="/credits/">développeur·euses bénévoles</a>. Son usage, sa modification et sa redistribution sont complètement gratuit et libre.
+
+  - title: Modulaire & Personnalisable
+    para: Accédez à <a href="https://content.minetest.net/">une bibliothèque de 2000+ mods gratuits et open source</a> pour customiser votre monde virtuel, et <a href="https://rubenwardy.com/minetest_modding_book/en/index.html">apprenez</a> avec vos élèves à en programmer de nouveaux !
+
+  - title: Léger & Cross-platform
+    para: Minetest nécessite peu de ressources, est compatible avec les appareils ancienne génération, et permet de se rejoindre dans le même monde virtuel depuis différents types d'appareils !
+
+
+  featured:
+  - title: Minestory
+    author: académie de Dijon - Julien Crémoux
+    tag: Scolaire - Patrimoine
+    lang: fr
+    img: minestory.png
+    para: Depuis 2019, plus de 600 élèves de 1er niveau issues de 30 classes dans 3 pays différents ont reproduit des sites du patrimoine tel que Notre-Dame de Paris, le château médiévale du Louvre ou la citadelle de Besançon. Ils les ont ensuite placé sur une frise interactive et fait leur médiation dans l'univers virtuel.
+    url: http://minetest.wp.ac-dijon.fr/minestory-frise-immersive-de-sites-du-patrimoine-architectural/
+
+  - title: Minetest Classroom
+    author: Paul Pickell
+    tag: Université - Jumeau Numérique
+    lang: ca
+    img: minetest_classroom.png
+    para: Un projet financé par l'Université de la Colombie-Britannique autour des usages de Minetest comme outil pédagogique et pour la porduction de jumeaux numériques d'espaces naturels ou artificiels. Il a été utilisé pour organiser des sorties éducatives virtuels dans le contexte de l'épidédime de Covid 19.
+    url: https://eml.ubc.ca/projects/gamifying-forestry/
+
+  - title: BLOCKALOT
+    author: Landesmedienzentrum Baden-Württemberg
+    tag: Plateforme/Outils
+    lang: de
+    img: blockalot.png
+    para: Le Landesmedienzentrum Baden-Württemberg vise à aider les enseignants à mettre en œuvre l'apprentissage par le jeu dans le cadre d'une approche pratique et orientée vers l'avenir. Il met à disposition de l'hébergement de serveur Minetest, des ressources pédagogiques ainsi qu'un support technique et pédagogique.
+    url: https://www.blockalot.de/
+
+  - title: Permis de déconstruire
+    author: Praticable
+    tag: Scolaire - Résidence artistique
+    lang: fr
+    img: permisdedeconstruire.jpg
+    para: Entre novembre 2021 et juin 2022, des collégiens·nes d'Aulnay-sous-Bois ont réinventés leur quartier sur Minetest. Ce projet, coordonné par l'IRI et les enseignants, a permis aux élèves d'explorer des pratiques numériques de construction coopérative et contributive. Les projets réalisés ont mit l'accent sur le bien-être et la convivialité du quartier.
+    url: https://praticable.fr/productions/permis-de-deconstruire
+
+  - title: UNEJ
+    author: Institut de Recherche et d'Innovation
+    tag: Scolaire - Urbanisme
+    lang: fr
+    img: unej.png
+    para: Le projet UNEJ (Urbanités Numériques En Jeux) propose à des enseignents et des élèves un projet évolutif sur 4 ans pour les sensibiliser à l'urbanisme en menant à bien des propositions concrètes d'aménagement de leurs quartiers, avec l'aide de professionnels du secteur, en lien avec les transformations urbaines menées pour les JO 2024.
+    url: https://tac93.fr/capacitation/unej
+
+  - title: Maubeuge en Cubes
+    author: Thomate & Lemente
+    tag: Participation citoyenne
+    lang: fr
+    img: maubeuge.png
+    para: Ateliers pour la ville de Maubeuge durant lesquels des jeunes citoyens âgés de 10 à 16 ans ont pu partager leurs idées pour améliorer leur quartier. Ils les ont ensuite intégré dans une carte de leur quartier, ce qui a permis aux urbanistes de voir ce que les jeunes voulaient et de discuter avec eux des questions d'aménagement.
+    url: https://agglo-maubeugevaldesambre.fr/wp-content/uploads/2023/02/Journal-du-Renouvellement-Urbain-7-Decembre-2022-Final-numerique.pdf
+
+
+  resources:
+  - title: Guides débutants
+    author: Des guides variés pour bien débuter
+    para: >
+      gb fr Mining for Education
+      gb Build Block Worlds with Minetest
+      gb Learning with Minetest
+      de Erste Schritte
+      fr Premier pas dans Minetest
+
+  - title: Minetest Wiki (Edu page)
+    author: Le wiki Minetest officiel, par la communauté
+    para: Une mine d'informations, avec un espace dédié à l'éducation. Recherche des contributeur·ices !
+    url: https://wiki.minetest.net/MinetestEDU
+
+  - title: Content Database
+    author: Pour trouver des mods Minetest
+    para: Une base de données où les devs peuvent soumettre leurs mods pour les rendre facilement accessibles. Comprend des fonctionnalités telles qu'un système de tag, des critiques, etc.
+    url: https://content.minetest.net/
+
+  - title: Blockalot Server Hosting
+    author: Pour héberger un serveur Édu
+    para: Un tableau de bord de gestion des serveurs proposé gratuitement pour faciliter l'hébergement de serveurs éducatifs Minetest. Fournit un support en anglais / français / allemand, un wiki et des ateliers.
+    url: https://www.blockalot.de/
+
+  - title: Blockexchange
+    author: Pour partager des constructions Minetest
+    para: Service qui permet d'importer ou de partager des constructions Minetest sur une bibliothèque en ligne.
+    url: https://blockexchange.minetest.ch/
+
+  - title: Créer/héberger un serveur (Wiki)
+    author: Pour héberger un serveur soi-même
+    para: Les bases pour héberger votre partie multijoueur en local ou en ligne.
+    url: https://wiki.minetest.net/Setting_up_a_server
+
+  - title: Minetest Modding Book
+    author: Pour apprendre les bases du modding
+    para: Guide pour apprendre les bases du développement de mods pour Minetest. Nécessite des bases en Lua et en programmation.
+    url: https://rubenwardy.com/minetest_modding_book/en/index.html
+
+  - title: Gitlab, Codeberg, forge.aeif.fr👀, GitHub ...
+    author: Pour partager du code, forker, contribuer ...
+    para: Plateformes de partage utilisées par les développeurs·euses de Minetest pour partager leurs propres projets, et contribuer aux projets d'autres utilisateurs·ices.
