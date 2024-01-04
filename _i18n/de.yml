@@ -25,6 +25,7 @@ navbar-menu:
 edu:
   main-title: "Minetest für Bildung"
   why-minetest: "Warum Minetest ?"
+  second-title: Projekte
 
   why:
   - title: Free of Charge
