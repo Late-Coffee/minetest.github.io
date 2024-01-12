@@ -42,7 +42,7 @@ edu:
   - title: Minestory
     author: académie de Dijon - Julien Crémoux
     tag: School - Heritage Sites
-    lang: 🇫🇷
+    lang: fr
     img: minestory.png
     para: Since 2019, more than 600 primary school students from 30 classes in 3 different countries have replicated heritage sites (like Notre-Dame de Paris, the medieval Louvre castle or the Besançon citadel), placed them on an interactive timeline and gave tours and presentations in the virtual world.
     url: http://minetest.wp.ac-dijon.fr/minestory-frise-immersive-de-sites-du-patrimoine-architectural/
@@ -50,7 +50,7 @@ edu:
   - title: Minetest Classroom
     author: Paul Pickell
     tag: University - Digital Twin
-    lang: 🇨🇦
+    lang: ca
     img: minetest_classroom.png
     para: A project funded by the University of British Columbia around the use of Minetest as a learning tool and for the production of digital twins of natural and human built environments. It has been used to organize virtual field trips in the context of Covid 19.
     url: https://eml.ubc.ca/projects/gamifying-forestry/
@@ -58,7 +58,7 @@ edu:
   - title: BLOCKALOT
     author: Landesmedienzentrum Baden-Württemberg
     tag: Platform/Tool
-    lang: 🇩🇪
+    lang: de
     img: blockalot.png
     para: The Landesmedienzentrum Baden-Württemberg aims at helping teachers implement future-oriented, game-based, learning in a hands-on approach. It provides Minetest server hosting, educational resources, as well as technical and educational support.
     url: https://www.blockalot.de/
@@ -66,7 +66,7 @@ edu:
   - title: Permis de déconstruire
     author: Praticable
     tag: School - Artistic Residency
-    lang: 🇫🇷
+    lang: fr
     img: permisdedeconstruire.jpg
     para: Between November 2021 and June 2022, secondary school students from Aulney-sous-Bois in France have reinvented their neighborhood with Minetest. This project, coordinated by the IRI foundation and the teachers, allowed the students to explore the digital practice of cooperative and contributive construction. The projects created emphasized well-being and the neighborhood's conviviality.
     url: https://praticable.fr/productions/permis-de-deconstruire
@@ -74,7 +74,7 @@ edu:
   - title: UNEJ
     author: Institut de Recherche et d'Innovation
     tag: School - Urban Planning
-    lang: 🇫🇷
+    lang: fr
     img: unej.png
     para: The UNEJ project (*Urbanités Numériques En Jeux*) is a 4 years project where teachers and students discover about urban planning while building concrete proposals for their neighborhood's development with the help of professionals from the sector. It is done in connection with the urban transformations carried out for the 2024 Olympics.
     url: https://tac93.fr/capacitation/unej
@@ -82,7 +82,7 @@ edu:
   - title: Maubeuge en Cubes
     author: Thomate & Lemente
     tag: Citizen Participation
-    lang: 🇫🇷
+    lang: fr
     img: maubeuge.png
     para: A Workshop for the city of Maubeuge in France where groups of young citizens between 10 and 16 years old shared ideas to improve their neighborhood. They then built them in an in-game map of their city, allowing urban planners to see what young people wanted for their local area and discuss current issues with them.
     url: https://agglo-maubeugevaldesambre.fr/wp-content/uploads/2023/02/Journal-du-Renouvellement-Urbain-7-Decembre-2022-Final-numerique.pdf
@@ -91,11 +91,11 @@ edu:
   - title: Beginners Guides
     author: Various guides to help you get started
     para: >
-      🇬🇧 🇫🇷 Mining for Education
-      🇬🇧 Build Block Worlds with Minetest
-      🇬🇧 Learning with Minetest
-      🇩🇪 Erste Schritte
-      🇫🇷 Premier pas dans Minetest
+      gb fr Mining for Education
+      gb Build Block Worlds with Minetest
+      gb Learning with Minetest
+      de Erste Schritte
+      fr Premier pas dans Minetest
 
   - title: Minetest Wiki (Edu page)
     author: The official Minetest Wiki, by the community

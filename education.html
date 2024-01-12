@@ -92,7 +92,7 @@ second-title: edu.second-title
 								<span class="tag is-rounded is-warning">{{ point["tag"] }}</span>
 							{% endif %}
 							{% for lang in point["lang"] %}
-								<img class="is-pulled-right" src="https://late-coffee.github.io/minetest.github.io/assets/icons/lang-{{ lang }}.png" alt="{{ lang }}">
+								<img class="is-pulled-right" src="https://late-coffee.github.io/minetest.github.io/assets/icons/lang-{{ point['lang'] }}.png" alt="{{ point['lang'] }}">
 							{% endfor %}
 						</h2>
 						<h6 class="subtitle is-6">{{ point["author"] }}</h6>
@@ -112,7 +112,7 @@ second-title: edu.second-title
 		<h2 id="resources" class="title">Resources</h2>
 
 		<div class="columns is-multiline">
-			{% for point in site.data.edu.resources %}
+			<!-- {% for point in site.data.edu.resources %}
 				<a class="column is-one-third hover-enlarge" href="{{ point.url }}">
 					<div class="card {{ point.classes }}">
 						<div class="card-content">
@@ -124,7 +124,20 @@ second-title: edu.second-title
 						</div>
 					</div>
 				</a>
-			{% endfor %}
+			{% endfor %} -->
+			{% for point in site.translations[site.lang].edu.resources %}
+			<a class="column is-one-third hover-enlarge" href="{{ point['url'] }}">
+				<div class="card {{ point['classes'] }}">
+					<div class="card-content">
+						<h2 class="title is-4">{{ point["title"] }}</h2>
+						<h6 class="subtitle is-6">{{ point["author"] }}</h6>
+						<p>
+							{{ point["para"] }}
+						</p>
+					</div>
+				</div>
+			</a>
+		{% endfor %}
 		</div>
 
 		<div class="notification">
